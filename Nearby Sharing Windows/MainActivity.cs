@@ -35,6 +35,9 @@ public sealed class MainActivity : AppCompatActivity
 
         FloatingActionButton floatingReceiveButton = FindViewById<FloatingActionButton>(Resource.Id.floating_receive_button)!;
         floatingReceiveButton.Click += ReceiveButton_Click;
+
+        AndroidWiFiDirectHandler handler = new();
+        handler.InitializeAsync(this);
     }
 
     private void ReceiveButton_Click(object? sender, EventArgs e)

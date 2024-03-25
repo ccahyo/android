@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Nearby Sharing</string>
+	<string name="app_titlebar_title_default">Kirim data ke Windows 10 / 11</string>
+	<string name="app_titlebar_title_receive">Terima data dari Windows 10 / 11</string>
+	<string name="app_titlebar_title_receive_setup">Penyesuaian / Informasi</string>
+
+	<string name="assets_prefix">id</string>
+
+	<!-- #region generic -->
+	<string name="generic_back">Balik</string>
+	<string name="generic_next">Lanjut</string>
+	<string name="generic_cancel">Batal</string>
+
+	<string name="generic_send">Kirim</string>
+	<string name="generic_receive">Terima</string>
+
+	<string name="generic_status_template">Status: {0}</string>
+	<string name="generic_error_template">Error: {0}</string>
+
+	<string name="generic_important">Penting</string>
+	<string name="generic_notifications">Notifikasi</string>
+	<string name="generic_settings">Setelan</string>
+	<string name="device_name"Nama Gawai</string>
+	<!-- #endregion -->
+
+	<!-- #region activity_mac_address.xml -->
+	<string name="launch_settings">Buka Setelan</string>
+	<string name="bt_mac_address">Alamat Mac Bluetooth</string>
+	<!-- #endregion -->
+
+	<!-- #region activity_receive.xml -->
+	<string name="visible_as_template"Terlihat sebagai {0}</string>
+	<string name="debug_log">Catatan untuk Perbaikan</string>
+	<!-- #endregion -->
+
+	<!-- #region activity_share.xml -->
+	<string name="scanning">Mencari ...</string>
+	<!-- #endregion -->
+
+	<!-- #region preferences.xml -->
+	<string name="category_general">Umum</string>
+	<string name="category_links">Link / Bantuan</string>
+	<string name="category_permissions">Perizinan</string>
+	<string name="category_setup">Penyesuaian</string>
+	<string name="category_about">Tentang</string>
+
+	<string name="request_permissions_title">Minta Izin</string>
+	<string name="request_permissions_summary">Berikan izin yang diperlukan ke aplikasi</string>
+
+	<string name="open_sponsor_title">Donasi</string>
+	<string name="open_sponsor_summary">Donasi ke pengembang aplikasi</string>
+
+	<string name="open_faq_title">Bantuan</string>
+	<string name="open_faq_summary">Pertanyaan yang sering ditanyakan</string>
+
+	<string name="open_discord_title">Discord</string>
+	<string name="open_discord_summary">Gabung server discord</string>
+
+	<string name="preference_appearance_title">Antarmuka / Desain</string>
+	<string name="preference_appearance_summary">Bahasa, mode gelap</string>
+
+	<string name="force_dark_mode_title">Mode Gelap</string>
+	<string name="force_dark_mode_summary">Selalu mode gelap</string>
+
+	<string name="switch_language_title">Bahasa Aplikasi</string>
+	<string name="switch_language_summary">Ganti bahasa tampilan aplikasi</string>
+
+	<string name="preference_cdp_title">Platform Perangkat yang Terhubung</string>
+	<string name="preference_cdp_summary">Penyesuaian pengiriman dan penerimaan</string>
+
+	<string name="open_setup_title">Penyesuaian Komputer</string>
+	<string name="open_setup_summary">Tutorial menyesuaikan komputer</string>
+
+	<string name="goto_mac_address_title">Tentukan Alamat Mac Bluetooth</string>
+	<string name="goto_mac_address_summary">Tentukan alamat mac bluetooth gawai Ini</string>
+
+	<string name="device_name_title">Nama Gawai</string>
+	<string name="device_name_summary">Ubah cara orang lain mengenal Anda</string>
+
+	<string name="show_credits_title">Tunjukkan Kredit</string>
+	<!-- #endregion -->
+
+	<!-- #region ReceiveActivity.cs -->
+	<string name="receive_missing_permissions">Tidak dapat menerima sebelum diizinkan!</string>
+	<!-- #endregion -->
+
+	<!-- #region ReceiveActivity.cs -->
+	<string name="share_file">Bagikan Berkas</string>
+	<string name="share_url">Bagikan Url</string>
+	<string name="share_text">Bagikan Teks</string>
+
+	<string name="send_missing_permissions">Izin tidak ada!</string>
+	<string name="wait_for_acceptance">Menunggu persetujuan</string>
+	<string name="status_cancelled">Dibatalkan</string>
+	<string name="status_done">Selesai</string>
+	<string name="sending_template">Mengirim {0} berkas</string>
+	<!-- #endregion -->
+</resources>
